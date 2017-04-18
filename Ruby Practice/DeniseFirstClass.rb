@@ -1,4 +1,4 @@
-class Word
+class Word < String
 	
 	def very_long?(string)
 		if string.length >= 10
@@ -11,4 +11,4 @@ class Word
 end
 
 w = Word.new
-puts w.very_long?("thisstringisaverylongstring")
+puts w.length
